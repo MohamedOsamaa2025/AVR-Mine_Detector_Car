@@ -7,19 +7,25 @@ C_SRCS += \
 ../DIO_program.c \
 ../EXTI0_program.c \
 ../GIE_programe.c \
-../main.c 
+../L298_program.c \
+../Mine_Detector_main.c \
+../UART_program.c 
 
 OBJS += \
 ./DIO_program.o \
 ./EXTI0_program.o \
 ./GIE_programe.o \
-./main.o 
+./L298_program.o \
+./Mine_Detector_main.o \
+./UART_program.o 
 
 C_DEPS += \
 ./DIO_program.d \
 ./EXTI0_program.d \
 ./GIE_programe.d \
-./main.d 
+./L298_program.d \
+./Mine_Detector_main.d \
+./UART_program.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

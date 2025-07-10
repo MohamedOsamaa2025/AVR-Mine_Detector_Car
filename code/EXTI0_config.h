@@ -8,6 +8,6 @@
 #ifndef EXTI0_CONFIG_H_
 #define EXTI0_CONFIG_H_
 
-#define SENSE       3
+#define SENSE       FALLING_EDGE
 
 #endif /* EXTI0_CONFIG_H_ */
